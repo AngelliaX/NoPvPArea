@@ -1,0 +1,13 @@
+name: NoPvPArea
+version: 0.0.1
+main: Tungst\NoPvPArea\NoPvPArea
+api: 3.0.0
+author: author_name
+commands:
+  npa:
+    description: Disables pvp on a certain area
+    usage: "/npa <name>"
+    permission: nopvparea.command.npa
+permissions:
+  nopvparea.command.npa:
+    default: op
